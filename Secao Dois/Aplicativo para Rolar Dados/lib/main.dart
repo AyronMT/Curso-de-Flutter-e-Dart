@@ -1,3 +1,6 @@
+import 'dart:io';
+import 'package:flutter/material.dart';
 
-
-runApp();
+void main() {
+  runApp(MaterialApp(home: Text('Rolinhas da a bunda.')));
+}
