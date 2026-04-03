@@ -1,6 +1,13 @@
-import 'dart:io';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(home: Text('Rolinhas da a bunda.')));
+  // Runapp, Material, Scaffold, Center, Text.
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.purple,
+        body: Center(child: Text(FontStyle('Rolinhas da a bunda!'))),
+      ),
+    ),
+  );
 }
